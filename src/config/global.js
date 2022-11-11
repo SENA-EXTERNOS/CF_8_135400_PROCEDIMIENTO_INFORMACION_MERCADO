@@ -1,10 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Presentación de informes de procesamiento de datos',
+    descripcionCurso:
+      'El presente componente formativo está enfocado en determinar y establecer todos los elementos que conforman la presentación de resultados, teniendo en cuenta la estructura del informe, las normas técnicas, las gráficas que serán empleadas y la confidencialidad en la información, con el propósito de presentar esta información de manera clara y concisa. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
@@ -12,6 +17,11 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,30 +42,43 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Exposición de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tablas de frecuencia',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gráficos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Informe',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Normas técnicas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Confidencialidad de la información',
         desarrolloContenidos: true,
       },
     ],
@@ -101,31 +124,150 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Guía para la presentación de gráficos estadísticos',
+      referencia:
+        'Instituto Nacional de Estadística e Informática. (2009). <em>Guía para la presentación de gráficos estadísticos</em>. Perú. INEI',
+      tipo: 'Artículo',
+      link:
+        'https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Presentación de datos estadísticos y gráficos',
+      referencia:
+        'Sgapeio (s.f.). <em>Presentación de datos estadísticos y gráficos</em>. V Jornada de formación para elaborar proyectos de estadística.',
+      tipo: 'Monografía',
+      link:
+        'https://www.sgapeio.es/descargas/xornadaSecundaria18/obradoiro.pdf',
+    },
+    {
+      tema: 'Guía de implementación para la seguridad de la información ',
+      referencia:
+        'ISO 27001. (2013). <em>Guía de implementación para la seguridad de la información.</em>',
+      tipo: 'Norma',
+      link:
+        'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf',
+    },
+    {
+      tema: 'Fuentes de información',
+      referencia:
+        'Margarita Aida Cruz García. (2019). <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA.</em>',
+      tipo: 'Artículo',
+      link:
+        'https://repository.uaeh.edu.mx/revistas/index.php/icea/article/view/4864/6748',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Análisis',
+      significado:
+        'descomposición de elementos que conforman la totalidad de datos, para clasificar y reclasificar el material recogido desde diferentes puntos de vista hasta optar por el más preciso y representativo.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Concepto',
+      significado:
+        'símbolo que representa la semejanza de fenómenos por demás diversos.',
+    },
+    {
+      termino: 'Conclusiones',
+      significado:
+        'representan la síntesis de los resultados obtenidos a lo largo del proceso de investigación.',
+    },
+    {
+      termino: 'Confiabilidad',
+      significado:
+        'indica la estabilidad, consistencia y exactitud de los resultados.',
+    },
+    {
+      termino: 'Cuadro o tabla',
+      significado:
+        'ordenamiento de datos numéricos en renglones y columnas que especifican la naturaleza de ciertos datos.',
+    },
+    {
+      termino: 'Dato primario',
+      significado:
+        'información reunida por el investigador directamente de la fuente.',
+    },
+    {
+      termino: 'Dato secundario',
+      significado:
+        'información reunida por una persona diferente al investigador.',
+    },
+    {
+      termino: 'Descripción',
+      significado:
+        'información reunida por una persona diferente al investigador.',
+    },
+    {
+      termino: 'Entrevista',
+      significado:
+        'se efectúa con base en un cuestionario, en el cual las preguntas deben ser resueltas durante el desarrollo.',
+    },
+    {
+      termino: 'Estudio de campo',
+      significado:
+        'son investigaciones que se realizan en el medio ambiente donde se desarrolla el problema que se va a investigar.',
+    },
+    {
+      termino: 'Hipótesis',
+      significado:
+        ' es la respuesta tentativa a un problema; una proposición que se pone a prueba para determinar su validez.',
+    },
+    {
+      termino: 'Muestreo',
+      significado:
+        'es el conjunto de operaciones que se realizan para estudiar la distribución de determinadas características en la totalidad de una población denominada muestra.',
+    },
+    {
+      termino: 'Observación de campo',
+      significado: 'se realiza en el lugar donde se da el fenómeno observado.',
+    },
+    {
+      termino: 'Tabulación',
+      significado:
+        'consiste en determinar grupos, subgrupos, clases o categorías en los que puedan ser clasificadas las respuestas del cuestionario aplicado en la investigación, resumiendo los datos en tablas estadísticas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alfredo Baronio, S. C. (2018). <em>Saber y Saber Hacer con Estadística</em>. Córdoba, Argentina: UniRio.',
+      link: '',
+    },
+    {
+      referencia:
+        'Corte Constitucional (2011). <em>Sentencia T-176A/14</em>. Corte Constitucional de la República de Colombia. ',
+      link:
+        'https://www.corteconstitucional.gov.co/RELATORIA/2014/T-176A-14.htm#:~:text=%E2%80%9CEl%20derecho%20fundamental%20al%20habeas,en%20la%20posibilidades%20de%20divulgaci%C3%B3n%2C ',
+    },
+    {
+      referencia:
+        'Escuela de Administración de Negocios. (2008). <em>Metodologías de la Investigación en las Ciencias Sociales</em>. En C. L. Ibáñez. Fases, fuentes y selección de técnicas (pág. 9). Revista EAN.',
+      link: '',
+    },
+    {
+      referencia:
+        'Margarita Aida Cruz García. (2019). <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA</em>. Obtenido de ',
+      link:
+        'https://repository.uaeh.edu.mx/revistas/index.php/icea/article/view/4864/6748',
+    },
+    {
+      referencia:
+        'Mariela Torres, K. P. (s.f.). <em>Métodos de recolección de datos para una investigación</em>. Boletín electrónico No. 03. Facultad de Ingeniería, Universidad Rafael Landívar.',
+      link: '',
+    },
+    {
+      referencia:
+        'Roberto Hernández Sampieri, C. F. (2014). <em>Metodología de la Investigación</em>. Mc Graw Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rodríguez, I. V. (2018). <em>Metodología para la elaboración de guías de fuentes de información</em>. México: Universidad Complutense de Madrid.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Autónoma del estado de Hidalgo. (2018). <em>Fuentes de información</em>. Obtenido de Sistema de Universidad Virtual: ',
       link: '',
     },
   ],
