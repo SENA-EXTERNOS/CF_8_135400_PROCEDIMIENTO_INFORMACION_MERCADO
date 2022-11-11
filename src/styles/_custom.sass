@@ -58,9 +58,16 @@
     transform: translateY(0px)
 
 .imagen-decora
-  animation: float5 3.5s ease-in-out infinite alternate
+  //animation: float5 3.5s ease-in-out infinite alternate
   top: 33%
   right: 14%
+@media (max-width: 500px)
+  .imagen-decora
+    //animation: float5 3.5s ease-in-out infinite alternate
+    top: 10%
+    right: 14%
+    width: 60%
+    margin-left: 20%
 
 .background-img
   border-start-start-radius: 22px
@@ -103,4 +110,23 @@
 
 .etiqueta-p
   margin-left: 45%
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #F6F6F6
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #D8ECFD
+
+.clr-paleYellow
+  background-color: #DBEDFD
+
+.tabs-a__tab 
+    background-color: #E8E8E8
+
+.margen-linea-tiempo
+  text-align: initial
+
+  
 

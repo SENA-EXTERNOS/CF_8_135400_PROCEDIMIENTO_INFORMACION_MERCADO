@@ -18,11 +18,11 @@
 
 
     .row.justify-content-center.align-items-center.mb-5.background-img
-      .col-lg-2
+      .col-lg-2.col-xs-8
         figure
-          img(src='@/assets/curso/temas/tema3/img2.svg').imgdimensioncaj.imagen-decora
+          img(src='@/assets/curso/temas/tema3/img2.svg').imagen-decora
 
-      .col-lg-7
+      .col-lg-7.col-xs-12
         p Los gráficos estadísticos son potentes herramientas para la visualización de datos que permiten representar de manera accesible información compleja, consiguen presentar la información al usuario o lector de manera clara y precisa, facilitando la comparación y la comprensión de la evolución de distintas variables.
 
 
@@ -31,7 +31,7 @@
 
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones.mb-5        
+        TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Gráfico de barras")
             .row.justify-content-center.align-items-center.mb-5  
               .col-8

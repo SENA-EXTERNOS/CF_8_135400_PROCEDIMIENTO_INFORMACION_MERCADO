@@ -90,8 +90,8 @@
             img(src='@/assets/curso/temas/tema4/img6.svg', alt='Texto que describa la imagen')
            
         .col-md-8
-          h3 Resumen
-          p Representa una síntesis breve e integral del contenido de la investigación, también permite que los lectores tengan una idea general de la investigación. En el resumen se deben incluir palabras clave que sean precisas y coherentes con el texto. Se recomienda utilizar de 150 a 250 palabras.
+          h3.margen-linea-tiempo Resumen
+          p.margen-linea-tiempo Representa una síntesis breve e integral del contenido de la investigación, también permite que los lectores tengan una idea general de la investigación. En el resumen se deben incluir palabras clave que sean precisas y coherentes con el texto. Se recomienda utilizar de 150 a 250 palabras.
 
       .row.justify-content-center.align-items-center.mb-3    
         .col-md-8.mb-4.mb-md-0
@@ -107,8 +107,8 @@
             img(src='@/assets/curso/temas/tema4/img8.svg', alt='Texto que describa la imagen')
            
         .col-md-8
-          h3 Justificación
-          p Demuestra las razones por las cuales se hace necesario realizar la investigación y recalca la importancia de la aplicación de los resultados obtenidos. 
+          h3.margen-linea-tiempo Justificación
+          p.margen-linea-tiempo Demuestra las razones por las cuales se hace necesario realizar la investigación y recalca la importancia de la aplicación de los resultados obtenidos. 
 
       .row.justify-content-center.align-items-center.mb-3    
         .col-md-8.mb-4.mb-md-0
@@ -125,8 +125,8 @@
             img(src='@/assets/curso/temas/tema4/img10.svg', alt='Texto que describa la imagen')
            
         .col-md-8
-          h3 Resultados
-          p Aquí se resumen los datos obtenidos que sean relevantes para la discusión posterior y su respectivo análisis. Se debe realizar una presentación completa, veraz, precisa y clara usando tablas, cuadros o gráficos que faciliten la interpretación.
+          h3.margen-linea-tiempo Resultados
+          p.margen-linea-tiempo Aquí se resumen los datos obtenidos que sean relevantes para la discusión posterior y su respectivo análisis. Se debe realizar una presentación completa, veraz, precisa y clara usando tablas, cuadros o gráficos que faciliten la interpretación.
 
       .row.justify-content-center.align-items-center.mb-3    
         .col-md-8.mb-4.mb-md-0
@@ -134,7 +134,7 @@
           p En las conclusiones se debe presentar la información de manera puntual y clara, dando respuesta a los logros obtenidos en el desarrollo de cada objetivo específico. Las conclusiones obtenidas se deben respaldar con instrumentos y evidencias, como lo son las tasas, índices o porcentajes.
         .col-md-4
           figure
-            img(src='@/assets/curso/temas/tema4/img5.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema4/img11.svg', alt='Texto que describa la imagen')
 
       
 
