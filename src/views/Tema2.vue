@@ -35,6 +35,9 @@
               .col-12
                 p.mb-0 Corresponde a la suma de las frecuencias relativas.
 
+    .row
+      p.text-center A continuación, se explicará paso a paso cómo construir una tabla de frecuencias: 
+
     .row.justify-content-between.align-items-center.mt-5
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Paso 1")

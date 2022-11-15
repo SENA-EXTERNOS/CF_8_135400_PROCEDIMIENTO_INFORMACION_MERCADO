@@ -16,7 +16,7 @@
 
     .row.justify-content-center.align-items-center.mb-5.mt-5                             
       .col-lg-11
-          p Estos datos pueden incluir notas de laboratorio, registros de campo, datos de información primaria obtenida a través de cuestionarios, grabaciones de audio y videos, desarrollo de modelos, toma de fotografías, objetos digitales, películas, interpretación de algoritmos, scripts, desarrollo de bases de datos, generación y esquema de metadatos y configuraciones de software. Debido a su naturaleza, algunos antecedentes no se consideran datos finales para una investigación, tal es el caso de, por ejemplo, las notas tomadas en el desarrollo de un laboratorio, datos parcializados, estudios preliminares, borradores de investigaciones, planificación e investigaciones en el futuro, entre otros.
+          p Estos datos pueden incluir notas de laboratorio, registros de campo, datos de información primaria obtenida a través de cuestionarios, grabaciones de audio y videos, desarrollo de modelos, toma de fotografías, objetos digitales, películas, interpretación de algoritmos, #[i scripts], desarrollo de bases de datos, generación y esquema de metadatos y configuraciones de #[i software]. Debido a su naturaleza, algunos antecedentes no se consideran datos finales para una investigación, tal es el caso de, por ejemplo, las notas tomadas en el desarrollo de un laboratorio, datos parcializados, estudios preliminares, borradores de investigaciones, planificación e investigaciones en el futuro, entre otros.
       .col-lg-1
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img2.svg') 
 
@@ -49,13 +49,13 @@
 
               li 
                 i.fas.fa-angle-right.txt--orange
-                | Según el formato:  en texto (Word, PDF, entre otros), numéricos (Excel, Gnumeric, entre otros), multimedia (JPEG, MPEG, WAV, entre otros), de forma estructurada (XML, MySQL, entre otros), con código de software (Java, C, C++, entre otros), específicos de algún software, como 3D CAD, modelo estadístico o específico de una disciplina o instrumento.
+                | Según el formato:  en texto (Word, PDF, entre otros), numéricos (Excel, Gnumeric, entre otros), multimedia (JPEG, MPEG, WAV, entre otros), de forma estructurada (XML, MySQL, entre otros), con código de #[isoftware] (Java, C, C++, entre otros), específicos de algún #[isoftware], como 3D CAD, modelo estadístico o específico de una disciplina o instrumento.
 
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
               
-      .py-4.py-md-5(titulo="Tipos de datos" :icono="require('@/assets/curso/temas/tema1/img3.svg')")
+      .py-4.py-md-5(titulo="Gestión de datos utilizados en una investigación" :icono="require('@/assets/curso/temas/tema1/img3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
 

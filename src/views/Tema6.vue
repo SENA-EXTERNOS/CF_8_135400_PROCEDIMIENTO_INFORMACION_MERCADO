@@ -13,13 +13,13 @@
           img.img-a.img-t(src='@/assets/curso/temas/tema6/img1.svg')  
 
       .col-lg-8.col-xs-12
-          p En cuanto al manejo de la información, actualmente existe un derecho llamado habeas data, regulado por la Ley 1266 del 2008, que declara que toda persona puede conocer, actualizar y rectificar la información que haya sido obtenida sobre ella en archivos o instituciones de carácter público o privado. El habeas data fue decretado por la Corte Constitucional de Colombia, la cual lo define como:
+          p En cuanto al manejo de la información, actualmente existe un derecho llamado #[i habeas data], regulado por la Ley 1266 del 2008, que declara que toda persona puede conocer, actualizar y rectificar la información que haya sido obtenida sobre ella en archivos o instituciones de carácter público o privado. El habeas data fue decretado por la Corte Constitucional de Colombia, la cual lo define como:
          
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-0 Un derecho que otorga la facultad al titular de datos personales de exigir de las administradoras de esos datos el acceso, inclusión, exclusión, corrección, adición, actualización y certificación de los datos, así como la limitación en las posibilidades de su divulgación, publicación o cesión, de conformidad con los principios que regulan el proceso de administración de datos personales. Asimismo, ha señalado que este derecho tiene una naturaleza autónoma que lo diferencia de otras garantías con las que está en permanente relación, como los derechos a la intimidad y a la información. 
-              
+            
               p.etiqueta-p (Corte Constitucional, 2011, párr. 25).
               i.fas.fa-quote-right
 
@@ -33,7 +33,6 @@
         .row.justify-content-center.align-items-center.mb-5.background-img2
 
           .col-lg-7
-             p Las páginas del documento pueden tener el siguiente orden:
 
              ul.lista-ul.mb-0.lista-ul--color
                 li 
