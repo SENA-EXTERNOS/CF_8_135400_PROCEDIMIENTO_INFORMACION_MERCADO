@@ -7,15 +7,13 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/a.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Completar la frase
-        p.mb-4 Apreciado aprendiz, a continuación encontrará una actividad didáctica para afianzar los conceptos y aprendizajes del componente de formación.
+          h2 Presentación de informes de procesamiento de datos
+        p Apreciado aprendiz, bienvenido a esta actividad didáctica donde usted completará las frases o ideas propuestas, digitando correctamente, en el campo dispuesto para ello, la palabra ausente. 
+        h5.mb-4 ¡Éxitos!
 
-        p Esta es una actividad de ‘completar la frase’, donde encontrará una definición en donde debe escribir la palabra faltante de acuerdo a las temáticas vistas a lo largo del componente.
-
-        p ¡Adelante y mucho ánimo!
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -42,44 +42,40 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Exposición de datos',
+        titulo: 'Informes de procesamiento de datos e información',
         desarrolloContenidos: true,
-      },
-
-      {
-        nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
-        numero: '2',
-        titulo: 'Tablas de frecuencia',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Gráficos',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Informe',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Normas técnicas',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Confidencialidad de la información',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Tablas de frecuencia',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Uso de gráficos',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Presentación del informe',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Normas técnicas para presentación de informes',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Confidencialidad de la información',
+            hash: 't_1_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -124,7 +120,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Guía para la presentación de gráficos estadísticos',
+      tema: 'Informes de procesamiento de datos e información',
       referencia:
         'Instituto Nacional de Estadística e Informática. (2009). <em>Guía para la presentación de gráficos estadísticos</em>. Perú. INEI',
       tipo: 'Artículo',
@@ -132,15 +128,15 @@ export default {
         'https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf',
     },
     {
-      tema: 'Presentación de datos estadísticos y gráficos',
+      tema: 'Uso de gráficos',
       referencia:
-        'Sgapeio (s.f.). <em>Presentación de datos estadísticos y gráficos</em>. V Jornada de formación para elaborar proyectos de estadística.',
+        'SAGAPEIO. (s.f.). <em>Presentación de datos estadísticos y gráficos</em>. V Jornada de formación para elaborar proyectos de estadística.',
       tipo: 'Monografía',
       link:
         'https://www.sgapeio.es/descargas/xornadaSecundaria18/obradoiro.pdf',
     },
     {
-      tema: 'Guía de implementación para la seguridad de la información ',
+      tema: 'Confidencialidad de la información ',
       referencia:
         'ISO 27001. (2013). <em>Guía de implementación para la seguridad de la información.</em>',
       tipo: 'Norma',
@@ -148,9 +144,9 @@ export default {
         'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf',
     },
     {
-      tema: 'Fuentes de información',
+      tema: 'Confidencialidad de la información',
       referencia:
-        'Margarita Aida Cruz García. (2019). <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA.</em>',
+        'Cruz García, M. A. (2019). <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA.</em>',
       tipo: 'Artículo',
       link:
         'https://repository.uaeh.edu.mx/revistas/index.php/icea/article/view/4864/6748',
@@ -230,45 +226,34 @@ export default {
   referencias: [
     {
       referencia:
-        'Alfredo Baronio, S. C. (2018). <em>Saber y Saber Hacer con Estadística</em>. Córdoba, Argentina: UniRio.',
+        'Baronio, A. (2018). <em>Saber y Saber Hacer con Estadística</em>. UniRio.',
       link: '',
     },
     {
       referencia:
-        'Corte Constitucional (2011). <em>Sentencia T-176A/14</em>. Corte Constitucional de la República de Colombia. ',
+        'Escuela de Administración de Negocios. (2008). Metodologías de la Investigación en las Ciencias Sociales. En C. L. Ibáñez, <i>Fases, fuentes y selección de técnicas</i> (pág. 9). <i>Revista EAN</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Torres, M. (s.f.). <em>Métodos de recolección de datos para una investigación</em>. Boletín electrónico No. 03. Facultad de Ingeniería, Universidad Rafael Landívar.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hernández Sampieri, R. (2004). <em>Metodología de la Investigación</em>. Mc Graw Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rodríguez, I. V. (2018). <em>Metodología para la elaboración de guías de fuentes de información</em>. Universidad Complutense de Madrid.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Autónoma del estado de Hidalgo. (2018). <em>Fuentes de información</em>.',
       link:
-        'https://www.corteconstitucional.gov.co/RELATORIA/2014/T-176A-14.htm#:~:text=%E2%80%9CEl%20derecho%20fundamental%20al%20habeas,en%20la%20posibilidades%20de%20divulgaci%C3%B3n%2C ',
-    },
-    {
-      referencia:
-        'Escuela de Administración de Negocios. (2008). <em>Metodologías de la Investigación en las Ciencias Sociales</em>. En C. L. Ibáñez. Fases, fuentes y selección de técnicas (pág. 9). Revista EAN.',
-      link: '',
-    },
-    {
-      referencia:
-        'Margarita Aida Cruz García. (2019). <em>Boletín Científico de las Ciencias Económico Administrativas del ICEA</em>. Obtenido de ',
-      link:
-        'https://repository.uaeh.edu.mx/revistas/index.php/icea/article/view/4864/6748',
-    },
-    {
-      referencia:
-        'Mariela Torres, K. P. (s.f.). <em>Métodos de recolección de datos para una investigación</em>. Boletín electrónico No. 03. Facultad de Ingeniería, Universidad Rafael Landívar.',
-      link: '',
-    },
-    {
-      referencia:
-        'Roberto Hernández Sampieri, C. F. (2014). <em>Metodología de la Investigación</em>. Mc Graw Hill.',
-      link: '',
-    },
-    {
-      referencia:
-        'Rodríguez, I. V. (2018). <em>Metodología para la elaboración de guías de fuentes de información</em>. México: Universidad Complutense de Madrid.',
-      link: '',
-    },
-    {
-      referencia:
-        'Universidad Autónoma del estado de Hidalgo. (2018). <em>Fuentes de información</em>. Obtenido de Sistema de Universidad Virtual: ',
-      link: '',
+        'https://repository.uaeh.edu.mx/bitstream/bitstream/handle/123456789/16700/LECT132.pdf',
     },
   ],
   creditos: {
