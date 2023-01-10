@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Exposición de datos
+      h1 Informes de procesamiento de datos e información
     
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -137,7 +137,7 @@
             .col-md-6
 
               figure
-                img(src='@/assets/curso/temas/tema2/tabla1.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/1.svg', alt='')
 
           .row(numero="2" titulo="Nueva tabla:")
             .col-md-4.mb-4.mb-md-0
@@ -145,7 +145,7 @@
             .col-md-6
         
               figure
-                img(src='@/assets/curso/temas/tema2/tabla2.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/2.svg', alt='')
 
           .row(numero="3" titulo="Cálculo de frecuencia absoluta acumulada:")
             .col-md-4.mb-4.mb-md-0
@@ -158,7 +158,7 @@
             .col-md-6
           
               figure
-                img(src='@/assets/curso/temas/tema2/tabla3.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/3.svg', alt='')
 
 
           .row(numero="4" titulo="Frecuencia relativa y frecuencia relativa absoluta:")
@@ -168,7 +168,7 @@
             .col-md-6
            
               figure
-                img(src='@/assets/curso/temas/tema2/tabla4.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/4.svg', alt='')
 
 
           .row(numero="5" titulo="Suma de datos:")
@@ -177,7 +177,7 @@
             .col-md-6
           
               figure
-                img(src='@/assets/curso/temas/tema2/tabla5.svg', alt='')       
+                img(src='@/assets/curso/temas/tema2/5.svg', alt='')       
 
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -212,7 +212,7 @@
               .col-8
                 h4 Gráfico de barras
                 p Se utilizan para representar la evolución o comportamiento de una variable en el tiempo. Se compone de un sistema de coordenadas de ejes en el plano cartesiano (eje X y eje Y). Reflejan barras rectangulares de manera horizontal o vertical que representan la variable elegida. 
-                p Representan, por ejemplo, egresos e ingresos de una empresa por periodos de actividad o la evolución transcurrida del PIB de un país de manera sea anual, semestral, trimestral, bimestral, etc. 
+                p Representan, por ejemplo, egresos e ingresos de una empresa por periodos de actividad o la evolución transcurrida del PIB de un país de manera anual, semestral, trimestral, bimestral, etc. 
                 p En términos generales permite analizar distintas variables y observar su comportamiento en el transcurso del tiempo. En uno de los ejes se debe establecer el tiempo y en el otro se reflejan las barras estableciendo el valor que corresponde a la variable.
 
 
@@ -224,7 +224,7 @@
             .row.justify-content-center.align-items-center.mb-5  
               .col-8
                 h4 Gráfico de tortas o diagrama de sectores
-                p Este diagrama permite visualizar las partes o sectores de un todo, reflejadas a través de una circunferencia dividida en sectores o porciones. Como ejemplo, el porcentaje de estudiantes de una clase en la cual se realiza una determinada actividad escolar: como resultado obtenido del 100 % de los estudiantes, un 25% la realiza completa y la comprende totalmente, un 20 % no la comprende por lo tanto no la desarrolla, el 55% la comprende, pero no loa termina.
+                p Este diagrama permite visualizar las partes o sectores de un todo, reflejadas a través de una circunferencia dividida en sectores o porciones. Como ejemplo, el porcentaje de estudiantes de una clase en la cual se realiza una determinada actividad escolar: como resultado obtenido del 100 % de los estudiantes, un 25% la realiza completa y la comprende totalmente, un 20 % no la comprende por lo tanto no la desarrolla, el 55% la comprende, pero no los termina.
 
               .col-lg-4
                 figure
@@ -244,7 +244,7 @@
             .row.justify-content-center.align-items-center.mb-5  
               .col-8
                 h4 Gráfico de barras
-                p En este grafico también se emplean los ejes cartesianos que permiten mostrar todos los datos de una variable dependiente y de la variable independiente o, en algunos casos, de dos variables para comprobar si existe relación. El resultado refleja una serie de puntos que muestran una dispersión o una concentración de los mismos para determinar la relación, o no, entre las variables analizadas. Esta representación gráfica permite realizar combinaciones diferentes, por ejemplo, la representación de una variable en barras y otras en línea, en los casos que el tipo de datos a representar lo permita.
+                p En este gráfico también se emplean los ejes cartesianos que permiten mostrar todos los datos de una variable dependiente y de la variable independiente o, en algunos casos, de dos variables para comprobar si existe relación. El resultado refleja una serie de puntos que muestran una dispersión o una concentración de los mismos para determinar la relación, o no, entre las variables analizadas. Esta representación gráfica permite realizar combinaciones diferentes, por ejemplo, la representación de una variable en barras y otras en línea, en los casos que el tipo de datos a representar lo permita.
 
               .col-lg-4
                 figure

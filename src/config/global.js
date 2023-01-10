@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Presentación de informes de procesamiento de datos',
     descripcionCurso:
-      'El presente componente formativo está enfocado en determinar y establecer todos los elementos que conforman la presentación de resultados, teniendo en cuenta la estructura del informe, las normas técnicas, las gráficas que serán empleadas y la confidencialidad en la información, con el propósito de presentar esta información de manera clara y concisa. ',
+      'Este componente formativo está enfocado en determinar y establecer todos los elementos que conforman la presentación de resultados del procesamiento de datos e información. Usted podrá afianzarse en aspectos clave de la estructura de un informe, las normas técnicas, las gráficas y herramientas que se emplean y la confidencialidad en la información.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
