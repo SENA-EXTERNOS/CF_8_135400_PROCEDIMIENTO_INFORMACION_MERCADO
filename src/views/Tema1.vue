@@ -18,7 +18,7 @@
       .col-lg-11
           p Los datos pueden incluir: notas de laboratorio, registros de campo, datos de información primaria, obtenida a través de cuestionarios, grabaciones de audio y videos, desarrollo de modelos, toma de fotografías, objetos digitales, películas, interpretación de algoritmos, scripts, desarrollo de bases de datos, generación y esquema de metadatos y configuraciones de <i>software</i>.
 
-          p Por lo tanto, no se consideran datos finales de una investigación: las notas tomadas en desarrollo de laboratorio, datos parcializados, estudios preliminares, borradores de investigaciones, planificación investigaciones en el futuro, etc. 
+          p Por lo tanto, no se consideran datos finales de una investigación: las notas tomadas en desarrollo de laboratorio, datos parcializados, estudios preliminares, borradores de investigaciones, planificación de investigaciones en el futuro, etc. 
       .col-lg-1
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img2.svg') 
 
@@ -220,7 +220,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img3.svg')
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Gráfico de tortas o diagrama de sectores")
+          .tarjeta.clr-paleYellow.p-4(titulo="Gráfico de tortas o<br> diagrama de sectores")
             .row.justify-content-center.align-items-center.mb-5  
               .col-8
                 h4 Gráfico de tortas o diagrama de sectores
@@ -230,7 +230,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img4.svg')
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Gráfico de líneas o diagrama de frecuencias")
+          .tarjeta.clr-paleYellow.p-4(titulo="Gráfico de líneas o<br> diagrama de frecuencias")
             .row.justify-content-center.align-items-center.mb-5  
               .col-8
                 h4 Gráfico de líneas o diagrama de frecuencias
@@ -243,7 +243,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Gráfico de dispersión")
             .row.justify-content-center.align-items-center.mb-5  
               .col-8
-                h4 Gráfico de barras
+                h4 Gráfico de dispersión
                 p En este gráfico también se emplean los ejes cartesianos que permiten mostrar todos los datos de una variable dependiente y de la variable independiente o, en algunos casos, de dos variables para comprobar si existe relación. El resultado refleja una serie de puntos que muestran una dispersión o una concentración de los mismos para determinar la relación, o no, entre las variables analizadas. Esta representación gráfica permite realizar combinaciones diferentes, por ejemplo, la representación de una variable en barras y otras en línea, en los casos que el tipo de datos a representar lo permita.
 
               .col-lg-4
@@ -520,7 +520,7 @@
               i.fas.fa-quote-left
               p Un derecho que otorga la facultad al titular de datos personales de exigir de las administradoras de esos datos el acceso, inclusión, exclusión, corrección, adición, actualización y certificación de los datos, así como la limitación en las posibilidades de su divulgación, publicación o cesión, de conformidad con los principios que regulan el proceso de administración de datos personales. Asimismo, ha señalado que este derecho tiene una naturaleza autónoma que lo diferencia de otras garantías con las que está en permanente relación, como los derechos a la intimidad y a la información. 
             
-              p.etiqueta-p.bg.p-2 (Corte Constitucional, 2011, párr. 25).
+              p.etiqueta-p.p-2 (Corte Constitucional, 2011, párr. 25).
               i.fas.fa-quote-right
 
 
