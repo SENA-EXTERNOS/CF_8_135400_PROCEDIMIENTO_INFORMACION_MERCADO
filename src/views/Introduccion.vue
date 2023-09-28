@@ -19,7 +19,7 @@
     
     .row.justify-content-center.align-items-center.mb-5.background-img            
       .col-lg-7
-        p Amplie sus conocimientos estudiando todos los temas del componente; conviértase en todo un experto de la presentación de informes, recolección de información en el marco de la investigación de mercados; de este modo fortalezca sus habilidades y capacidades para impulsar la comercialización de sus productos o los productos de su empresa..
+        p Amplíe sus conocimientos estudiando todos los temas del componente, conviértase en todo un experto de la presentación de informes, recolección de información en el marco de la investigación de mercados; de este modo, fortalezca sus habilidades y capacidades para impulsar la comercialización de sus productos o los productos de su empresa.
 
         p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
