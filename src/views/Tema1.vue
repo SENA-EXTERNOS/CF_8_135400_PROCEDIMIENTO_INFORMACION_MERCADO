@@ -449,7 +449,7 @@
                   | Apéndice
 
     .row
-      p.text-center La portada, estructurada bajo las Normas Apa, puede tener la siguiente forma:
+      p.text-center La portada, debe estar estructurada bajo las Normas APA, la cual puede tener la siguiente forma:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.col-xs-12
