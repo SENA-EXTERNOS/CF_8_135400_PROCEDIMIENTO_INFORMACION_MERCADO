@@ -125,7 +125,7 @@ export default {
         'Instituto Nacional de Estadística e Informática. (2009). <em>Guía para la presentación de gráficos estadísticos</em>. Perú. INEI',
       tipo: 'Artículo',
       link:
-        'https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf',
+        'https://sinia.minam.gob.pe/documentos/guia-presentacion-graficos-estadisticos',
     },
     {
       tema: 'Uso de gráficos',
@@ -252,6 +252,8 @@ export default {
     {
       referencia:
         'Universidad Autónoma del estado de Hidalgo. (2018). <em>Fuentes de información</em>.',
+      link:
+        'https://repository.uaeh.edu.mx/bitstream/bitstream/handle/123456789/16700/LECT132.pdf',
     },
   ],
   creditos: {
