@@ -125,7 +125,7 @@ export default {
         'Instituto Nacional de Estadística e Informática. (2009). <em>Guía para la presentación de gráficos estadísticos</em>. Perú. INEI',
       tipo: 'Artículo',
       link:
-        'https://sinia.minam.gob.pe/documentos/guia-presentacion-graficos-estadisticos',
+        'https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf',
     },
     {
       tema: 'Uso de gráficos',
